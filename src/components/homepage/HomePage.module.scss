@@ -1,0 +1,44 @@
+@import "../../assets/styles/variable";
+
+.container1 {
+  max-width: 100%;
+  height: 400px;
+  background-color: rgb(226, 213, 197);
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+
+  .subcontainer1 {
+    width: 570px;
+    height: 250px;
+    align-items: center;
+    h1 {
+      font-weight: 700;
+      font-size: 50px;
+      color: $secondary-color;
+      margin: 10px;
+    }
+    p {
+      color: black;
+    }
+    .searchbtn {
+      display: flex;
+      align-items: center;
+      input {
+        padding: 7px;
+      }
+
+      .searchIcon {
+        width: 20px;
+        height: 20px;
+        margin-left: -30px;
+      }
+    }
+  }
+  .subcontainer2 {
+    img {
+      width: 400px;
+      height: 300px;
+    }
+  }
+}

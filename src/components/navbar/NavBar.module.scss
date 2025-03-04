@@ -1,0 +1,42 @@
+@import "../../assets/styles/variable";
+
+.navbar {
+  display: flex;
+  background-color: $primary-color;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: cursive;
+
+  .logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 70px;
+      height: 70px;
+    }
+    h5 {
+      margin: 0;
+      color: black;
+      font-size: 25px;
+      font-family: cursive;
+    }
+  }
+
+  .navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    list-style: none;
+
+    li {
+      a {
+        text-decoration: none;
+        color: rgb(72, 0, 63);
+      }
+    }
+  }
+}
