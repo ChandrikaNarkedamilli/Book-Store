@@ -1,0 +1,46 @@
+.BookPage {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 85px;
+
+  img {
+    width: 200px;
+    border-radius: 20px;
+  }
+
+  .details {
+    width: 800px;
+  }
+
+  .btns {
+    border: 1px solid rgb(195, 103, 192);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+    height: 160px;
+    align-items: center;
+
+    button {
+      width: 160px;
+      padding: 8px;
+      margin-bottom: 7px;
+      border: none;
+      border-radius: 20px;
+    }
+
+    .cart {
+      color: white;
+      background-color: rgb(188, 20, 20);
+    }
+    .buynow {
+      color: white;
+      background-color: rgb(21, 137, 21);
+    }
+    .wishlist {
+      color: white;
+      background-color: rgb(144, 21, 115);
+    }
+  }
+}

@@ -6,18 +6,11 @@ import SellPage from "../sell/SellPage";
 import AboutPage from "../about/AboutPage";
 import styles from "./HomePage.module.scss";
 import { FcSearch } from "react-icons/fc";
+import BookList from "../booklist/BookList";
 
 function HomePage() {
   return (
     <>
-      <NavBar />
-      <Routes>
-        <Route path="/" />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/shop" element={<ShopPage />} />
-        <Route path="/sell" element={<SellPage />} />
-      </Routes>
-
       <div className={styles.container1}>
         <div className={styles.subcontainer1}>
           <h1>Buy and sell various books at lowest prices</h1>
@@ -36,7 +29,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="bookscontainer"></div>
+      <BookList />
     </>
   );
 }

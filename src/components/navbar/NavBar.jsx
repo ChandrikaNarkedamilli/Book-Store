@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./NavBar.module.scss";
+import { BsCart4 } from "react-icons/bs";
+import { IoOptions } from "react-icons/io5";
 
 function NavBar() {
   return (
@@ -22,8 +24,15 @@ function NavBar() {
           <li>
             <a href="/sell">SELL BOOK</a>
           </li>
+          <li>
+            <a href="/cart">
+              Cart <BsCart4 />
+            </a>
+          </li>
         </ul>
-        <div>options</div>
+        <div>
+          <IoOptions style={{ fontSize: "25px" }} />
+        </div>
       </nav>
     </>
   );
